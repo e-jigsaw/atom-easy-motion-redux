@@ -1,17 +1,12 @@
 {
   "name": "easy-motion-redux",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "main": "./lib/main",
   "description": "MovementSpeed++. Jump to any word in your current view super fast. (redux)",
   "repository": "https://github.com/leny/atom-easy-motion-redux",
   "license": "MIT",
   "engines": {
-    "atom": ">=0.199.0"
-  },
-  "activationCommands": {
-    "atom-text-editor:not([mini])": [
-      "easy-motion-redux:start"
-    ]
+    "atom": ">=1.2"
   },
   "dependencies": {
     "atom-space-pen-views": "^2.0.5",
